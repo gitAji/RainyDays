@@ -353,6 +353,31 @@ nav.hamburger li a:hover {
     color: var(--clr-primary-green);
 }
 
+.search {
+    display:block;
+   position:relative;
+   height:500px;
+   margin:30px 90px;
+    
+   
+}
+.search-box{
+   
+    align-items: center;
+   
+}
+input[type=text]{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+  
+   
+
 /* footer section  */
 footer {
     display: grid;

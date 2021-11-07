@@ -50,48 +50,27 @@
         </div>
     </div>
     <!-- end of navbar -->
-
-    <!-- start of slider -->
-    <div class="col-12 slides">
-        <img src="images/01.jpeg" alt="" height="0%" width="100%">
-        <div style="text-align:center">
-            <span class="dot active" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
+    <!-- breadcrumb -->
+    <div class="breadcrumb">
+        <ul>
+            <li><a href="index.html">Home</li></a>
+            <li class="b-active">Search</li>
+        </ul>
     </div>
-    <!-- end of slider -->
-
-    <!-- cta section -->
-    <div class="grid-container">
-        <div class="grid-men">
-            <div class=" grid-img">
-                <img src="images/man.jpeg" alt="">
-            </div>
-            <div class="grid-btn">
-                <div class="primary-btn">Men</div>
-            </div>
-        </div>
-        <div class="grid-woman">
-            <div class="grid-img">
-                <img src="images/woman.jpeg" alt="">
-            </div>
-            <div class="grid-btn">
-                <div class="primary-btn">Woman</div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- end of cta section -->
-    <!-- partners and brand section -->
-    <div class="brand-flex">
-        <img src="images/nike.jpeg" alt="nike logo">
-        <img src="images/adidas.jpeg" alt="adidas logo">
-        <img src="images/puma.jpeg" alt="puma logo">
-        <img src="images/converse.jpeg" alt="converse logo">
-        <img src="images/all.jpeg" alt="all">
-    </div>
-    <!-- end of partners and brands -->
+<!-- search section -->
+<div class="search">
+    <div class="search-box">
+    <form action="search.php" method="post" role="search">
+    <input type="text" id="search" name="search" placeholder="Search">
+    <label for="topic">Products:</label>
+    <input type="checkbox" name="products" id="products">
+    <label for="topic">Articles:</label>
+    <input type="checkbox" name="Articles" id="articles">
+    <input type="submit" value="Search" name="submit" class="secondary-btn btn-serach">
+</form>
+</div>
+</div>
+ 
     <!-- footer Section -->
     <footer class="footer">
         <div class="footer-container">

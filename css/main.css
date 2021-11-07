@@ -19,7 +19,9 @@
 * {
     box-sizing: border-box;
 }
-
+body.nontouch nav a:hover {
+    background: var(--clr-primary-blue);
+}
 /* Style the body */
 body {
 

@@ -1,0 +1,30 @@
+/* checkout-step */
+.checkout-step {
+    padding: 5px 10px;
+    margin:auto;
+    list-style: none;
+    background-color: var(--clr-dark-bgcolor);
+}
+
+.checkout-step li {
+    display: inline;
+}
+
+.checkout-step li+li:before {
+    padding: 8px;
+    color: var(--clr-primary-green);
+    content: "/\00a0";
+}
+
+.checkout-step li a {
+    color: var(--clr-dark);
+    font-size: 18px;
+}
+
+.checkout-step li a:hover {
+    color: var(--clr-primary-blue);
+}
+
+.b-active {
+    color: var(--clr-light);
+}

@@ -52,7 +52,7 @@
     text-decoration: none;
     margin: 20px 0 60px 0;
     font-family: var(--ff-main-font);
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     font-variant: small-caps;
     cursor: pointer;
@@ -83,7 +83,7 @@
     .cat-btn {
         text-align: center;
         margin: 10px;
-        font-size: 16px;
+        font-size: 18px;
         padding: 15px 15px;
     }
 }

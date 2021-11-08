@@ -67,6 +67,7 @@ a{
 }
 a:hover{
     color:var(--clr-primary-green);
+}
 
   @media(max-width: 574px) {
     .form {

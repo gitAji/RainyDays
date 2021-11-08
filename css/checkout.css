@@ -36,6 +36,6 @@
 .step-active {
     color: var(--clr-dark-blue);
     font-weight: 700;
-    text-decoration:underline;
-   
+    text-decoration: underline;
+
 }

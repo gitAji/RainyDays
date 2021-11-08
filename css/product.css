@@ -1,0 +1,99 @@
+/* styles for produts,this can be included in the main css */
+
+.cat-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    padding: 12px 12px;
+    flex-flow: raw;
+    align-content: space-between;
+    justify-content: space-between;
+
+}
+
+.category {
+
+    width: 29%;
+    margin: :10px;
+}
+
+.cat-img {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cat-img>img {
+
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cat-btn {
+    border: 1px solid;
+    border-color: var(--clr-primary-green);
+    color: var(--clr-primary-green);
+    background-color: var(--clr-neutral);
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0 60px 0;
+    font-family: var(--ff-main-font);
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+.cat-btn:hover {
+    background-color: var(--clr-primary-green);
+    color: var(--clr-neutral);
+}
+
+/* media queries */
+@media(max-width: 574px) {
+    .cat-img>img {
+
+        height: 200px;
+
+    }
+
+    .category {
+
+        width: 29%;
+        margin: : 2px;
+    }
+
+    .cat-btn {
+        text-align: center;
+        margin: 5px 10px;
+        font-size: 16px;
+        padding: 12px 12px;
+    }
+}
+
+@media(max-width: 767px) {
+    .cat-img>img {
+
+        height: 220px;
+
+    }
+
+    .category {
+        width: 29%;
+        margin: : 4px;
+    }
+
+    .cat-btn {
+        text-align: center;
+        margin: 5px 10px;
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+}

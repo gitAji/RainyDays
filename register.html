@@ -40,24 +40,28 @@
         <!-- top bar icons -->
         <div class="side-icons">
             <div class="user-icon">
-                <i class="fas fa-user fa-1x"></i>
+                <a href="login.html"><i class="fas fa-user fa-1x"></i></a>
             </div>
             <div class="shopping-bag">
-                <i class="fas fa-shopping-bag fa-1x"></i>
+                <a href="bag.html"> <i class="fas fa-shopping-bag fa-1x"></i></a>
             </div>
             <div class="search-icon">
-                <i class="fas fa-search fa-1x"></i>
+                <a href="search.html"> <i class="fas fa-search fa-1x"></i></a>
             </div>
         </div>
     </div>
+    <!-- end of top bar icons -->
+    <!-- breadcrumb -->
     <div class="breadcrumb">
         <ul>
             <li><a href="index.html">Home</li></a>
             <li class="b-active">User Registration</li>
         </ul>
     </div>
+    <!-- end of breadcrumb -->
 
     <!-- end of navbar -->
+    <!-- Registration form -->
     <div class="form">
         <form action="register.php" method="post">
             <h1>Registration Form</h1>
@@ -75,11 +79,10 @@
             <input type="password" id="password" name="password" validate="password" maxlength="10" required>
             <label for="repassword">Re-password</label>
             <input type="password" id="repassword" name="repassword" validate="password" maxlength="10" required>
-            <input type="submit" value="Register Now" name="submit" class="primary-btn">
+            <input type="submit" value="Register Now" name="submit" class="form-btn">
             <div class="signin">
                 <p>Already have an account? <a href="login.html">Sign in</a>.</p>
             </div>
-        </form>
     </div>
     <!-- End of the form -->
 

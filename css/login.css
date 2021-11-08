@@ -13,7 +13,7 @@
 --ff-sub-font: 'Avenir';
 }
 body{
-    background-color:var(--clr-light-bgcolor);
+    background-color:var(--clr-neutral);
 }
 .form{
     align-items:center;
@@ -22,6 +22,7 @@ body{
     padding: 5px 25px;
     width: 50%;
     background-color:var(--clr-neutral);
+    border:2px solid var(--clr-light-bgcolor);
     box-sizing: border-box;
     border-radius: 10px;
 

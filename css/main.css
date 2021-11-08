@@ -19,9 +19,11 @@
 * {
     box-sizing: border-box;
 }
+
 body.nontouch nav a:hover {
     background: var(--clr-primary-blue);
 }
+
 /* Style the body */
 body {
 
@@ -38,13 +40,11 @@ body {
 /* style the heading  */
 h1 {
     font-family: 'Montserrat';
-    font: size:20px;
-    font-weight: 500;
+    font: size:18px;
+    font-weight: 400;
     line-height: 1;
-    font-variant: small-caps;
     color: var(--clr-primary-orange);
     text-align: center;
-    text-decoration: underline;
 
 }
 
@@ -189,6 +189,7 @@ nav.hamburger li a:hover {
     z-index: -1;
 
 }
+
 /* breadcrumb */
 .breadcrumb {
     padding: 5px 10px;
@@ -202,8 +203,8 @@ nav.hamburger li a:hover {
 
 .breadcrumb li+li:before {
     padding: 8px;
-    color: var(--clr-primary-green);
-    content: "/\00a0";
+    color: var(--clr-primary-blue);
+    content: "|\00a0";
 }
 
 .breadcrumb li a {
@@ -212,7 +213,7 @@ nav.hamburger li a:hover {
 }
 
 .breadcrumb li a:hover {
-    color: var(--clr-primary-blue);
+    color: var(--clr-primary-green);
 }
 
 .b-active {
@@ -224,14 +225,14 @@ nav.hamburger li a:hover {
     border-color: var(--clr-primary-green);
     color: var(--clr-neutral);
     background-color: var(--clr-primary-green);
-    padding: 15px 40px;
+    padding: 15px 50px;
     border: 1px solid;
     border-radius: 30px;
     text-align: center;
     text-decoration: none;
     margin: 4px 20px;
     font-family: 'Montserrat';
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     font-variant: small-caps;
     cursor: pointer;
@@ -247,12 +248,12 @@ nav.hamburger li a:hover {
     border-color: var(--clr-primary-green);
     color: var(--clr-primary-green);
     background-color: var(--clr-neutral);
-    padding: 15px 45px;
+    padding: 15px 50px;
     text-align: center;
     text-decoration: none;
     margin: 4px 20px;
     font-family: var(--ff-main-font);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     font-variant: small-caps;
     cursor: pointer;
@@ -261,6 +262,27 @@ nav.hamburger li a:hover {
 .secondary-btn:hover {
     background-color: var(--clr-primary-green);
     color: var(--clr-neutral);
+}
+
+.form-btn {
+    border-color: var(--clr-primary-green);
+    color: var(--clr-neutral);
+    background-color: var(--clr-primary-green);
+    padding: 15px 50px;
+    border: 1px solid;
+    border-radius: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: var(--clr-neutral);
+    color: var(--clr-primary-green);
 }
 
 /* slider dots */
@@ -273,6 +295,11 @@ nav.hamburger li a:hover {
     border-radius: 0%;
     display: inline-block;
     transition: background-color 0.6s ease;
+}
+
+.container {
+    display: block;
+
 }
 
 /* main CTA section */
@@ -356,29 +383,31 @@ nav.hamburger li a:hover {
 }
 
 .search {
-    display:block;
-   position:relative;
-   height:500px;
-   margin:30px 90px;
-    
-   
+    display: block;
+    position: relative;
+    height: 500px;
+    margin: 30px 90px;
+
+
 }
-.search-box{
-   
+
+.search-box {
+
     align-items: center;
-   
+
 }
-input[type=text]{
+
+input[type=text] {
     display: block;
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     margin-top: 10px;
-    
+
 }
 
-  
-   
+
+
 
 /* footer section  */
 footer {
@@ -399,7 +428,7 @@ footer {
     height: 10%;
     width: 12%;
     padding: 1px;
-    margin: 10px 20px;
+    margin: 20px 20px;
     float: left;
 
 }
@@ -446,11 +475,11 @@ footer {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: var(--clr-light);
+    background-color: var(--clr-neutral);
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
-    color: var(--clr-neutral);
+    color: var(--clr-primary-orange);
     transition: all 0.5s ease;
 }
 
@@ -554,11 +583,37 @@ footer {
     footer {
         height: 250%
     }
+
+    .footer-logo>img {
+        height: 20%;
+        width: 20%;
+
+    }
+
+    nav.hamburger ul {
+
+        width: 700px;
+        height: 230px;
+
+    }
 }
 
 @media(max-width: 574px) {
+    footer {
+        height: 250%
+    }
+
     .footer-col {
         width: 100%;
+    }
+
+    .footer-logo>img {
+        height: 15%;
+        width: 15%;
+        padding: 1px;
+        margin: 10px 10px;
+
+
     }
 
     body {
@@ -567,10 +622,6 @@ footer {
 
     .col-12 {
         width: 100%;
-    }
-
-    footer {
-        height: 250%
     }
 
     .grid-container {

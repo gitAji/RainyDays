@@ -617,6 +617,9 @@ footer {
     .navbar {
         height: 80px;
     }
+    .menu{
+        margin: 15px 10px;
+    }
 
     .sidebar {
         margin: 0;

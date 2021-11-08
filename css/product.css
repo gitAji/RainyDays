@@ -3,12 +3,12 @@
 .cat-container {
     justify-content: center;
     display: flex;
+    flex-direction: raw;
     flex-wrap: wrap;
     position: relative;
     width: 100%;
     cursor: pointer;
     padding: 12px 12px;
-    flex-flow: raw;
     align-content: space-between;
     justify-content: space-between;
 
@@ -16,7 +16,7 @@
 
 .category {
 
-    width: 29%;
+    width: 33%;
     margin: :10px;
 }
 
@@ -60,14 +60,16 @@
 @media(max-width: 574px) {
     .cat-img>img {
 
-        height: 200px;
+        height: auto;
 
     }
 
     .category {
-
-        width: 29%;
-        margin: : 2px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 500%;
+        margin: : auto;
     }
 
     .cat-btn {
@@ -77,4 +79,3 @@
         padding: 15px 15px;
     }
 }
-

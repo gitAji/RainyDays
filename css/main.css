@@ -686,6 +686,7 @@ footer {
 
     .footer-brand {
         max-width: 100%;
+        flex-wrap: wrap;
         flex-direction: column;
 
     }

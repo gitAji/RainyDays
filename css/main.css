@@ -192,7 +192,7 @@ nav.hamburger li a:hover {
 
 /* breadcrumb */
 .breadcrumb {
-    padding: 5px 10px;
+    padding: 5px 5px;
     list-style: none;
     background-color: var(--clr-dark-bgcolor);
 }
@@ -202,7 +202,7 @@ nav.hamburger li a:hover {
 }
 
 .breadcrumb li+li:before {
-    padding: 8px;
+    padding: 10px 10px;
     color: var(--clr-primary-blue);
     content: "|\00a0";
 }

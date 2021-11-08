@@ -73,4 +73,11 @@ a:hover{
     .form {
           width: 90%;
       }
+      .form-btn {
+        font-size: 20px;
+
+    }
+    .form-btn:focus{
+color: #000;
+    }
   }

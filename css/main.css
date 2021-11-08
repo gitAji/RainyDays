@@ -676,6 +676,13 @@ footer {
 
 
     }
+    .footer-col h3 {
+        font-size: 20px;
+        color: var(--clr-neutral);
+        margin: 5px 5px;
+        font-weight: bold;
+    
+    }
 
     .footer-brand {
         max-width: 100%;

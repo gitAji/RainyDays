@@ -60,7 +60,7 @@
 @media(max-width: 574px) {
     .cat-img>img {
 
-        height: 0px;
+        height: 200px;
 
     }
 
@@ -81,7 +81,7 @@
 @media(max-width: 767px) {
     .cat-img>img {
 
-        height: 220px;
+        height: 200px;
 
     }
 

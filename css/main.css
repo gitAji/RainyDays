@@ -7,7 +7,7 @@
     --clr-primary-blue: #11AFFF;
     --clr-primary-green: #1EB374;
     --clr-dark: #000;
-    --clr-light: rgb(80, 80, 80);
+    --clr-light: rgb(145, 144, 144);
     --clr-neutral: #fff;
     --clr-light-bgcolor: #f6d0ac;
     --clr-dark-bgcolor: #ff9c5a;
@@ -357,13 +357,15 @@ nav.hamburger li a:hover {
 
 /* brands that we do sell */
 .brand-flex>img:hover {
-    background-color: var(--clr-primary-green);
+    color: var(--clr-primary-green);
+    border: 1px solid;
 }
 
 .brand-flex>* {
     display: inline-flex;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
 }
 
 /* others */
@@ -603,7 +605,8 @@ footer {
 
     .brand-flex>img {
         width: 30%;
-        margin: auto;
+        margin: 5px;
+      
 
     }
 

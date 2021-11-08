@@ -574,29 +574,6 @@ footer {
 
 
 /*responsive*/
-@media(max-width: 767px) {
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
-    }
-
-    footer {
-        height: 250%
-    }
-
-    .footer-logo>img {
-        height: 20%;
-        width: 20%;
-
-    }
-
-    nav.hamburger ul {
-
-        width: 700px;
-        height: 230px;
-
-    }
-}
 
 @media(max-width: 574px) {
     footer {

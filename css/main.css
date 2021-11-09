@@ -609,7 +609,7 @@ footer {
         grid-template-columns: 100%;
     }
 
-    .grid-img {
+    .grid-img>img {
         object-fit: cover;
 
     }

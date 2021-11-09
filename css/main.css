@@ -301,7 +301,7 @@ nav.hamburger li a:hover {
     cursor: pointer;
     height: 10px;
     width: 10px;
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
     background-color: var(--clr-dark-bgcolor);
     border-radius: 0%;
     display: inline-block;

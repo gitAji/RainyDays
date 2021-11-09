@@ -1,4 +1,4 @@
-/* styles for produts,this can be included in the main css */
+/* styles for products,this can be included in the main css */
 /* .category */
 .main-container {
     display: flex;
@@ -146,13 +146,12 @@ border:1px solid var(--clr-dark-bgcolor);
 }
 
 .filter {
-    float: left;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    margin: 15px 15px;
-    background-color: cornsilk;
+    margin: 5px 45px;
+    
 
 
 
@@ -177,7 +176,7 @@ border:1px solid var(--clr-dark-bgcolor);
     .cat-btn {
         text-align: center;
         margin: 10px;
-        font-size: 18px;
+        font-size: 20px;
         padding: 15px 15px;
     }
 

@@ -194,10 +194,16 @@ nav.hamburger li a:hover {
 }
 
 .slides {
-    position: relative;
     display: block;
+    position: relative;
     margin: 1px;
     z-index: -1;
+
+}
+.slides>button {
+    display: inline-block;
+    position:absolute;
+  
 
 }
 

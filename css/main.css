@@ -48,13 +48,24 @@ h1 {
 
 }
 
-h2,
+h2 {
+    font-family: 'Montserrat';
+    font: size:18px;
+    font-weight: 500;
+    line-height: 1;
+    font-variant: small-caps;
+    color: var(--clr-primary-blue);
+
+}
+
 h3 {
     font-family: 'Montserrat';
     font: size:18px;
     font-weight: 500;
     line-height: 1;
     font-variant: small-caps;
+    color: var(--clr-primary-orange);
+
 }
 
 /* style the paragraph */
@@ -604,9 +615,9 @@ footer {
     }
 
     .brand-flex>img {
-        width: 30%;
+        width: 50%;
         margin: 5px;
-      
+
 
     }
 
@@ -617,7 +628,8 @@ footer {
     .navbar {
         height: 80px;
     }
-    .menu{
+
+    .menu {
         margin: 18px 10px;
     }
 
@@ -676,12 +688,13 @@ footer {
 
 
     }
+
     .footer-col h3 {
         font-size: 20px;
         color: var(--clr-neutral);
         margin: 5px 5px;
         font-weight: bold;
-    
+
     }
 
     .footer-brand {

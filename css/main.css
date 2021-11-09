@@ -85,7 +85,7 @@ hr {
 
 a {
     text-decoration: none;
-    color: var(--clr-neutral);
+    /* color: var(--clr-neutral); */
     font-size: 16px;
     font-weight: 400;
     font-family: Montserrat;
@@ -126,6 +126,21 @@ ul {
     color:var(--clr-neutral);
     font-family: "Simplifica";
 }
+/* style for main cta button  */
+.cta-btn{
+    background-color:var(--clr-neutral);
+    color: var(--clr-primary-green);
+    padding: 15px 40px;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-variant: small-caps;
+    cursor: pointer;
+    border:1px solid var(--clr-primary-green);
+    border-radius: 30px;
+    
+}
 /* checkbox hack this needed to be updated later */
 nav.hamburger {
     display: none;
@@ -145,7 +160,7 @@ nav.hamburger ul {
     position: absolute;
     padding: 20px 0;
     width: 800px;
-    z-index: 1;
+    z-index: 2;
     background-color: rgba(248, 248, 248, 0.377);
     height: 250px;
 
@@ -201,13 +216,15 @@ nav.hamburger li a:hover {
     display: block;
     position: relative;
     margin: 1px;
-    z-index: -1;
+    z-index: 1;  /*-1 will not make the btn work */
+    overscroll-behavior-y:var(--clr-dark-bgcolor);
 
 }
 .main-cta{
     position: absolute;
     left: 60%;
     top:400px;
+   
 }
 
 /* breadcrumb */

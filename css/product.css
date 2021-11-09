@@ -47,6 +47,7 @@
     color: var(--clr-primary-green);
     background-color: var(--clr-neutral);
     padding: 15px 50px;
+    margin:12px;
     text-align: center;
     text-decoration: none;
     font-family: var(--ff-main-font);

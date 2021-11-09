@@ -622,6 +622,7 @@ footer {
 
     .brand-flex>img {
         margin: 2px;
+        object-fit: cover;
 
     }
 

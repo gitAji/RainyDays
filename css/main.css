@@ -217,7 +217,6 @@ nav.hamburger li a:hover {
     position: relative;
     margin: 1px;
     z-index: 1;  /*-1 will not make the btn work */
-    overscroll-behavior-y:var(--clr-dark-bgcolor);
 
 }
 .main-cta{
@@ -321,7 +320,19 @@ nav.hamburger li a:hover {
     background-color: var(--clr-neutral);
     color: var(--clr-primary-green);
 }
-
+.white-btn{
+    border: 1px solid;
+    border-color: var(--clr-primary-green);
+    color: var(--clr-primary-green);
+    background-color: var(--clr-neutral);
+    padding: 15px 50px;
+    margin-block:12px;
+    text-align: center;
+}
+.white-btn:hover {
+    background-color: var(--clr-primary-green);
+    color: var(--clr-neutral);
+}
 /* slider dots */
 .dot {
     cursor: pointer;
@@ -681,6 +692,25 @@ footer {
     .search-icon {
         margin-right: 20px;
 
+    }
+    .slides{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .main-cta{
+        position: absolute;
+        left: 60%;
+        top:60px;
+       
+    }
+    .cta-btn{
+        padding: 12px 8px;
+        font-size: 16px;    
+    }
+    .title{
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .grid-img {

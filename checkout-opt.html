@@ -11,8 +11,8 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/root.css">
-    <link rel="stylesheet" href="css/product.css">
-    <title>Categories-The Rainy Days</title>
+    <link rel="stylesheet" href="css/login.css">
+    <title>Home-The Rainy Days</title>
 </head>
 
 <body>
@@ -37,7 +37,8 @@
             </nav>
         </div>
         <!-- end of nav -->
-        <!-- top bar icons -->
+
+        <!-- side-icons -->
         <div class="side-icons">
             <div class="user-icon">
                 <a href="login.html"><i class="fas fa-user fa-1x"></i></a>
@@ -54,52 +55,32 @@
     <div class="breadcrumb">
         <ul>
             <li><a href="index.html">Home</li></a>
-            <li class="b-active">Categories</li>
+            <li class="b-active">User Login</li>
         </ul>
     </div>
     <!-- end of breadcrumb -->
+
     <!-- end of navbar -->
-    <!-- product view section -->
-    <div class="main-container">
-        <div class="category">
-            <div class="cat-img">
-                <img src="images/products/m-hiking.jpeg" alt="">
-            </div>
-            <a href="products.html"><div class="cat-btn">Hiking</div>
-        </div></a>
-        <div class="category">
-            <div class="cat-img">
-                <img src="images/products/m-skiing.jpeg" alt="">
-            </div>
-            <div class="cat-btn">Skiing</div>
-        </div>
-        <div class="category">
-            <div class="cat-img">
-                <img src="images/products/canoeing.jpeg" alt="">
-            </div>
-            <div class="cat-btn">Canoeing</div>
-        </div>
-        <div class="category">
-            <div class="cat-img">
-                <img src="images/products/camping.jpeg" alt="">
-            </div>
-            <div class="cat-btn">Camping</div>
-        </div>
-        <div class="category">
-            <div class="cat-img">
-                <img src="images/products/exploring.jpeg" alt="">
-            </div>
-            <div class="cat-btn">Exploring</div>
-        </div>
-        <div class="category">
-            <div class="cat-img">
-                <img src="images/products/outing.jpeg" alt="">
-            </div>
-            <div class="cat-btn">Outing</div>
-        </div>
-
+    <!-- login form -->
+   <div class="container">
+    <div class="form" action="login.php" method="post">
+        <h1>User Login</h1>
+       
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" validate="email" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" validate="password" maxlength="10" required >
+        <input type="submit" value="Login" name="submit" class="form-btn">
+        <div class="container signin">
+            <p>Create a new account <a href="register.html">Register</a>.</p>
+          </div>
+          <hr>
+          <div class="container guest">
+              <h1>Check out as guest</h1>
+            <a href="bag.html"><div class="form-btn white-btn">As Guest</div>
+          </div></a>
     </div>
-
+</div>
     <!-- footer Section -->
     <footer class="footer">
         <div class="footer-container">

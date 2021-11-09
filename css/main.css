@@ -614,10 +614,15 @@ footer {
 
     }
 
-    .brand-flex>img {
-        width: 50%;
-        margin: 5px;
+    .brand-flex {
+        width: 100%;
+        display: flex;
+        margin: 0;
+    }
 
+    .brand-flex>img {
+        width: 70%;
+        margin: 5px;
 
     }
 
@@ -664,12 +669,6 @@ footer {
         padding: 10px 0;
         width: 400px;
 
-    }
-
-    .brand-flex {
-        width: 100%;
-        display: flex;
-        margin: 0;
     }
 
     footer {

@@ -45,6 +45,7 @@ h1 {
     line-height: 1;
     color: var(--clr-primary-orange);
     text-align: center;
+    font-variant:small-caps;
 
 }
 
@@ -67,7 +68,6 @@ h3 {
     color: var(--clr-primary-orange);
 
 }
-
 /* style the paragraph */
 p {
     font-family: 'Montserrat';
@@ -77,7 +77,7 @@ p {
     line-height: 1.7;
 }
 
-
+/* style horizontalline */
 hr {
     border: dotted 1px var(--clr-light);
     margin: 20px 0;
@@ -121,7 +121,11 @@ ul {
     margin: 10px 10px;
 
 }
-
+/* heading for main CTA */
+.title {
+    color:var(--clr-neutral);
+    font-family: "Simplifica";
+}
 /* checkbox hack this needed to be updated later */
 nav.hamburger {
     display: none;
@@ -200,11 +204,10 @@ nav.hamburger li a:hover {
     z-index: -1;
 
 }
-.slides>button {
-    display: inline-block;
-    position:absolute;
-  
-
+.main-cta{
+    position: absolute;
+    left: 60%;
+    top:400px;
 }
 
 /* breadcrumb */
@@ -239,15 +242,15 @@ nav.hamburger li a:hover {
 
 /* style the buttons */
 .primary-btn {
+    background-color: var(--clr-primary-green);
     border-color: var(--clr-primary-green);
     color: var(--clr-neutral);
-    background-color: var(--clr-primary-green);
-    padding: 15px 50px;
+    padding: 15px 20px;
     border: 1px solid;
     border-radius: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 4px 20px;
+    margin: 4px 6px;
     font-family: 'Montserrat';
     font-size: 24px;
     font-weight: 600;

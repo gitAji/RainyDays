@@ -2,26 +2,8 @@
 @import url('//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'>);
 @import url('//fonts.googleapis.com/css?family=Avenir:thin,extra-light,light,100,200,300,400,500,600,700,800'>);
 
-.root {
-    --clr-primary-orange: #FF6111;
-    --clr-primary-blue: #11AFFF;
-    --clr-primary-green: #1EB374;
-    --clr-dark: #000;
-    --clr-light: rgb(145, 144, 144);
-    --clr-neutral: #fff;
-    --clr-light-bgcolor: #f6d0ac;
-    --clr-dark-bgcolor: #ff9c5a;
-
-    --ff-main-font: 'Montserrat';
-    --ff-sub-font: 'Avenir';
-}
-
 * {
     box-sizing: border-box;
-}
-
-body.nontouch nav a:hover {
-    background: var(--clr-primary-blue);
 }
 
 /* Style the body */
@@ -30,7 +12,7 @@ body {
     font-family: 'Avenir''Montserrat';
     font: size 1.3125rem;
     line-height: :1.6;
-    margin: 0 auto;
+    margin: 5px 0 0 0;
     padding: 0;
     overflow-x: hidden;
     min-width: 300px;
@@ -121,11 +103,22 @@ ul {
     position: absolute;
     margin: 10px 10px;
 }
+
 /* heading for main CTA */
 .title {
     color: var(--clr-neutral);
-    font-family: "Simplifica";
+    font-family: "Bavro";
     font-size: 36px;
+    font-variant: normal;
+}
+/* p text for main cta */
+.white-text{
+    color: var(--clr-neutral);
+    padding: 10px 10px;
+    font-family:"Simplifica" ;
+    font-size:18px;
+    justify-self: center;
+
 }
 
 /* checkbox hack this needed to be updated later */
@@ -202,15 +195,18 @@ nav.hamburger li a:hover {
 .slides {
     display: block;
     position: relative;
-    margin: 1px;
     z-index: 1;
     /*-1 will not make the btn work */
 }
 
 .main-cta {
+    padding: 10px 10px;
+    background-color:var(--clr-overlay-orange);
     position: absolute;
     left: 70%;
-    top: 400px;
+    top: 250px;
+    width:350px;
+    height:300px;
 }
 
 /* breadcrumb */
@@ -260,7 +256,8 @@ nav.hamburger li a:hover {
     cursor: pointer;
 }
 
-.primary-btn:hover,:focus {
+.primary-btn:hover,
+:focus {
     background-color: var(--clr-neutral);
     color: var(--clr-primary-green);
 }
@@ -280,7 +277,8 @@ nav.hamburger li a:hover {
     cursor: pointer;
 }
 
-.secondary-btn:hover,:focus {
+.secondary-btn:hover,
+:focus {
     background-color: var(--clr-neutral);
     color: var(--clr-primary-blue);
 }
@@ -346,7 +344,7 @@ nav.hamburger li a:hover {
     grid-gap: 30px 30px;
     padding: 12px 12px;
     margin: auto;
-    background-color: var(--clr-dark-bgcolor);
+    background-color: var(--clr-light-bgcolor);
 
 }
 
@@ -465,11 +463,12 @@ footer {
 }
 
 .footer-logo>img {
-    height: 10%;
-    width: 12%;
+    height: 8%;
+    width: 10%;
     padding: 1px;
     margin: 20px 20px;
     float: left;
+
 
 }
 
@@ -551,7 +550,7 @@ footer {
     background-color: var(--clr-dark);
     display: flex;
     position: relative;
-   
+
 }
 
 .footer-backtotop {
@@ -656,6 +655,7 @@ footer {
 
     .logo {
         margin-top: 10px;
+
     }
 
     .navbar {
@@ -687,6 +687,7 @@ footer {
     .slides {
         width: 100%;
         height: 100%;
+
 
     }
 
@@ -733,9 +734,8 @@ footer {
     .footer-logo>img {
         height: 18%;
         width: 20%;
-        padding: 1px;
         margin: 10px 10px;
-
+        align-items: center;
 
     }
 

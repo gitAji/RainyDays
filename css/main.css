@@ -352,17 +352,17 @@ nav.hamburger li a:hover {
 
 .grid-men {
 
-    border: 1px solid var(--clr-neutral);
+    border: 1px solid var(--clr-light-bgcolor);
     align-items: center;
-    background-color: var(--clr-light-bgcolor);
+    background-color: var(--clr-neutral);
 
 }
 
 .grid-woman {
 
-    border: 1px solid var(--clr-neutral);
+    border: 1px solid var(--clr-light-bgcolor);
     align-items: center;
-    background-color: var(--clr-light-bgcolor);
+    background-color: var(--clr-neutral);
 }
 
 .grid-img {
@@ -387,7 +387,6 @@ nav.hamburger li a:hover {
     display: flex;
     padding: 20px 20px;
     background-color: var(--clr-light-bgcolor);
-    height: 100px;
     margin-block: 50px;
     cursor: pointer;
 }
@@ -552,7 +551,7 @@ footer {
     background-color: var(--clr-dark);
     display: flex;
     position: relative;
-    align-content: center;
+   
 }
 
 .footer-backtotop {

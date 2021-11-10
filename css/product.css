@@ -1,12 +1,12 @@
 /* styles for products,this can be included in the main css */
-/* .category */
+/* style for category */
 .main-container {
     display: flex;
     flex-direction: raw;
     flex-wrap: wrap;
     position: relative;
     width: 100%;
-    cursor: pointer;
+    margin: 0 auto;
     padding: 12px 12px;
     align-content: space-between;
     justify-content: space-between;
@@ -47,7 +47,7 @@
     color: var(--clr-primary-green);
     background-color: var(--clr-neutral);
     padding: 15px 50px;
-    margin:12px;
+    margin: 12px;
     text-align: center;
     text-decoration: none;
     font-family: var(--ff-main-font);
@@ -82,11 +82,12 @@
 
 .product-img>img {
     position: relative;
-    height: 400px;
+    height: 450px;
     width: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    border: 2px solid;
 }
 
 .product-img>img:hover {
@@ -97,10 +98,11 @@
 .product-description {
     display: inline;
 }
-.container-guest{
-padding:12px 12px;
-margin:12px 12px;
-border:1px solid var(--clr-dark-bgcolor);
+
+.container-guest {
+    padding: 12px 12px;
+    margin: 12px 12px;
+    border: 1px solid var(--clr-dark-bgcolor);
 }
 
 
@@ -110,6 +112,7 @@ border:1px solid var(--clr-dark-bgcolor);
     color: var(--clr-primary-green);
     background-color: var(--clr-neutral);
     padding: 15px 25px;
+    margin-top: 30px;
     text-align: center;
     text-decoration: none;
     font-family: var(--ff-main-font);
@@ -130,7 +133,7 @@ border:1px solid var(--clr-dark-bgcolor);
     border: 1px solid;
     border-color: var(--clr-primary-blue);
     padding: 15px 25px;
-    margin-block:12px;
+    margin-block: 12px;
     font-family: var(--ff-main-font);
     font-size: 24px;
     font-weight: bold;
@@ -150,11 +153,36 @@ border:1px solid var(--clr-dark-bgcolor);
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    margin: 5px 45px;
-    
+    margin: 15px 15px;
+}
+
+.load-more {
+    padding: 30px 500px;
+    align-items: center;
+    margin: 10px auto;
+}
+
+/* style for product-view page */
+.left-col {
+    width: 50%;
+}
+
+.right-col {
+    width: 50%;
 
 
+}
 
+.left-col img {
+    width: 60%;
+    height: 90%;
+    margin: 40px 40px;
+    object-fit: cover;
+}
+
+.product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
 }
 
 /* media queries */

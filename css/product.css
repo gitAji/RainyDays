@@ -155,7 +155,7 @@
 
     .product-img>img {
         width: 80%;
-        height: 60%;
+        height: 70%;
     }
 
     .filter {
@@ -163,11 +163,6 @@
         width: fit-content;
 
     }
-
-    .main-container {
-        flex-direction: column;
-    }
-
     .left-col {
         width: 100%;
     }

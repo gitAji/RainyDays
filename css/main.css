@@ -641,5 +641,9 @@ nav.hamburger ul {
 .form{
     width: 100%;
 }
+.brand-flex{
+    margin-block:20px;
+
+}
 }
 /* end of media query */

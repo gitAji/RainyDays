@@ -638,5 +638,8 @@ nav.hamburger ul {
     width: 700px;
     height: 250px;  
 }
+.form{
+    width: 100%;
+}
 }
 /* end of media query */

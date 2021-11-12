@@ -626,7 +626,11 @@ footer {
     }
 }
 /* media query for tab */
-@media(max-width: 768px) {
+/* Portrait and Landscape */
+@media (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+
+{
 .main-cta {
     display: none;
 

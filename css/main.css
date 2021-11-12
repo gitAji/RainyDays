@@ -650,6 +650,9 @@ footer {
         padding: 5px;
 
     }
+    .footer-brand{
+        padding: 0px;
+    }
 }
 
 /* end of media query */

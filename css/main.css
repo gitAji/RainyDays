@@ -625,6 +625,11 @@ footer {
 
     }
 }
+/* media query for tab */
+@media(max-width: 768px) {
+.main-cta {
+    display: none;
 
-
+}
+}
 /* end of media query */

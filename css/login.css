@@ -46,7 +46,8 @@ input[type=password] {
 
 label {
     padding-bottom: 5px;
-    color: --clr-dark font-weight: bold;
+    color: var(--clr-dark); 
+    font-weight: 500;
 
 }
 
@@ -60,14 +61,7 @@ a:hover {
 
 @media(max-width: 574px) {
     .form {
-        width: 90%;
-    }
-
-    .form-btn {
-        font-size: 20px;
-        border: 1px solid;
-        border-radius: 0px;
-        padding: 10px 10px;
+        width: 100%;
     }
 
 }

@@ -13,8 +13,8 @@
 
 /* Style the body */
 body {
-    font: size 1.3125rem;
-    line-height: :1.6;
+    font-size: 1.125rem;
+    line-height: 1.6;
     margin: 5px 0 0 0;
     padding: 0;
     overflow-x: hidden;
@@ -46,7 +46,7 @@ h2 {
 
 h3 {
     font-family: var(--ff-main-font);
-    font: size:18px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1;
     font-variant: small-caps;
@@ -92,7 +92,6 @@ ul {
     height: 65px;
     width: 60px;
     display: inline-flex;
-    position: :absolute;
     margin: 0 auto;
 
 }
@@ -180,7 +179,6 @@ nav.hamburger li a:hover {
 /* side bar consist of 3 icons */
 .side-icons {
     display: inline-flex;
-    position: :absolute;
     align-items: center;
 
 }
@@ -228,7 +226,7 @@ nav.hamburger li a:hover {
 
 .breadcrumb li a {
     color: var(--clr-dark);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .breadcrumb li a:hover {
@@ -256,8 +254,7 @@ nav.hamburger li a:hover {
     cursor: pointer;
 }
 
-.primary-btn:hover,
-:focus {
+.primary-btn:hover {
     background-color: var(--clr-primary-green);
     color: var(--clr-neutral);
 }
@@ -277,16 +274,15 @@ nav.hamburger li a:hover {
     cursor: pointer;
 }
 
-.secondary-btn:hover,
-:focus {
+.secondary-btn:hover {
     background-color: var(--clr-primary-blue);
     color: var(--clr-neutral);
 }
 
 .form-btn {
     border-color: var(--clr-primary-green);
-    color: var(--clr-neutral);
-    background-color: var(--clr-primary-green);
+    color: var(--clr-primary-green);
+    background-color: var(--clr-neutral);
     padding: 15px 50px;
     border: 1px solid;
     border-radius: 0px;
@@ -299,10 +295,9 @@ nav.hamburger li a:hover {
     cursor: pointer;
 }
 
-.form-btn:hover,
-:focus {
-    background-color: var(--clr-neutral);
-    color: var(--clr-primary-green);
+.form-btn:hover {
+    background-color: var(--clr-primary-green);
+    color: var(--clr-neutral);
 }
 
 .white-btn {
@@ -388,7 +383,6 @@ nav.hamburger li a:hover {
 /* partners & brands */
 .brand-flex {
     display: flex;
-    flex-direction: raw;
     padding: 20px 20px;
     background-color: var(--clr-light-bgcolor);
     margin-block: 50px;
@@ -404,13 +398,6 @@ nav.hamburger li a:hover {
 .brand-flex>img:hover {
     color: var(--clr-primary-green);
     border: 1px solid;
-}
-
-/* others */
-.active,
-.dot:hover {
-    background-color: var(--clr-primary-green);
-
 }
 
 .fas,
@@ -503,7 +490,8 @@ footer {
 
 .footer-col ul li a {
     font-size: 18px;
-    color: var(--clr-neutral) text-decoration: none;
+    color: var(--clr-neutral);
+    text-decoration: none;
     font-weight: 400;
     color: var(--clr-neutral);
 
@@ -572,7 +560,7 @@ footer {
 /* footer end */
 /* About us section */
 .about {
-    display: flexbox;
+    display: flex;
     position: relative;
     margin: 12px 12px;
 
@@ -586,13 +574,13 @@ footer {
 .about-img {
     min-width: 50%;
     margin: 12px 12px;
-    
-   
+
+
 }
 
 .about-img img {
     width: 100%;
-    
+
     /* keep the img fixed in size */
 
 }
@@ -650,7 +638,7 @@ footer {
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .main-container {
@@ -677,7 +665,7 @@ footer {
     }
 
     footer {
-        flex-direction: raw;
+        flex-direction: column;
 
     }
 

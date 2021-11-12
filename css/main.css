@@ -326,16 +326,12 @@ nav.hamburger li a:hover {
 }
 
 .grid-men {
-
-    border: 1px solid var(--clr-light-bgcolor);
     align-items: center;
     background-color: var(--clr-overlay-orange);
 
 }
 
 .grid-woman {
-
-    border: 1px solid var(--clr-light-bgcolor);
     align-items: center;
     background-color: var(--clr-overlay-orange);
 }

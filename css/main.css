@@ -630,7 +630,7 @@ footer {
 
 /* media query for tab */
 /* Portrait and Landscape */
-@media (max-device-width: 800px) {
+@media (min-device-width: 800px) {
 
    
 

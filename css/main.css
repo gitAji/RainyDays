@@ -634,6 +634,9 @@ footer {
     display: none;
 
 }
-
+nav.hamburger ul {
+    width: 700px;
+    height: 250px;  
+}
 }
 /* end of media query */

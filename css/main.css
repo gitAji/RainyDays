@@ -636,4 +636,8 @@ footer {
 
 }
 }
+.product-img>img {
+    width: 90%;
+    height: 60%;
+}
 /* end of media query */

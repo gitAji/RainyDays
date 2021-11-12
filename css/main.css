@@ -592,7 +592,11 @@ footer {
     p {
         margin: 12px 12px;
     }
-
+    .user-icon,
+    .shopping-bag,
+    .search-icon {
+        margin-right: 15px;
+    }
     nav.hamburger ul {
         padding: 10px 0;
         width: 280px;

@@ -91,6 +91,7 @@ ul {
     height: 65px;
     width: 60px;
     display: inline-flex;
+    flex-flow: row
     margin: 0 auto;
 
 }

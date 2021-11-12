@@ -639,7 +639,8 @@ nav.hamburger ul {
     height: 250px;  
 }
 .grid-container{
-    width: 100%;
+    grid-template-columns: 100%;
+
 }
 .form{
     width: 100%;

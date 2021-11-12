@@ -592,17 +592,15 @@ footer {
     p {
         margin: 12px 12px;
     }
-
     .user-icon,
     .shopping-bag,
     .search-icon {
         margin-right: 15px;
     }
-
     nav.hamburger ul {
         padding: 10px 0;
         width: 280px;
-        height: 220px;
+        height:220px;
 
     }
 
@@ -627,47 +625,15 @@ footer {
 
     }
 }
-
 /* media query for tab */
 /* Portrait and Landscape */
-@media (min-device-width: 800px) {
+@media (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
 
-   
+.main-cta {
+    display: none;
 
-    .main-cta {
-        left: 50%;
-        top: 20px;
-        padding:1px 1px;
-
-    }
-
-
-    .product-img>img {
-        width: 100%;
-        height: 100%;
-    }
-
-    nav.hamburger ul {
-        padding: 10px 0;
-        width: 700px;
-        height: 250px;
-
-    }
-
-    .main-container {
-        width: 100%;
-    }
-
-    .grid-container {
-        grid-template-columns: 100%;
-    }
-
-    .form {
-        width: 80%;
-    }
-    .brand-flex{
-        margin-block:20px;
-    }
 }
 
+}
 /* end of media query */

@@ -633,7 +633,7 @@ footer {
 @media (max-device-width: 800px) {
 
     body {
-        max-width: 800px;
+        min-width: 800px;
     }
 
     .main-cta {

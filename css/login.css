@@ -1,4 +1,4 @@
-
+/* style for login system */
 
 .form {
     align-items: center;
@@ -13,8 +13,12 @@
 
 }
 
-.signin {
-    display: inline-block;
+.form-base {
+    display: block;
+    margin:12px 0px;
+    padding:0 12px;
+    border: 1px solid var(--clr-dark-bgcolor);
+    background-color: var(--clr-light-bgcolor);
 }
 
 input[type=text] {

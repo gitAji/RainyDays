@@ -3,7 +3,6 @@
 
 .main-container {
     display: flex;
-    flex-direction: raw;
     flex-wrap: wrap;
     position: relative;
     width: 100%;

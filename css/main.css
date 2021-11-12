@@ -637,8 +637,9 @@ footer {
     }
 
     .main-cta {
-        left: 70%;
-        top: 250px;
+        left: 50%;
+        top: 120px;
+        padding:10px 10px;
 
     }
 
@@ -665,6 +666,9 @@ footer {
 
     .form {
         width: 80%;
+    }
+    .brand-flex{
+        margin-block:20px;
     }
 }
 

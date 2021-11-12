@@ -632,9 +632,7 @@ footer {
 /* Portrait and Landscape */
 @media (max-device-width: 800px) {
 
-    body {
-        min-width: 800px;
-    }
+   
 
     .main-cta {
         left: 50%;

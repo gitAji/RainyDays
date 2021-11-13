@@ -138,26 +138,25 @@ nav.hamburger ul {
     list-style-type: none;
     display: block;
     position: absolute;
-    margin: 65px 0px;
+    margin: 75px 0px;
     padding: 10px 10px;
     z-index: 2;
     background-color: var(--clr-overlay-orange);
-    height: 230px;
+    height: 225px;
     width: 1000px;
 
 }
 
 nav.hamburger li {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
 
 }
 
 nav.hamburger li a {
     font-family: var(--ff-main-font);
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
     color: var(--clr-primary-orange);
-    background: var(--clr-neutral);
     padding: 12px 12px;
     display: block;
     text-align: center;

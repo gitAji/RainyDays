@@ -20,8 +20,7 @@
   <!-- navbar section -->
   <div class="navbar" id="top">
     <div class="logo">
-        <img src="images/Logo.png" alt="logo" height="65px" width="120px">
-    </div>
+        <a href="index.html"><img src="images/Logo.png" alt="logo" ></a>    </div>
         <!-- this menu will be updated later using JS  -->
         <div class="menu">
             <label for="hamburger">
@@ -67,20 +66,20 @@
         <form action="register.php" method="post">
             <h1>Registration Form</h1>
             <label for="firstname">First Name</label>
-            <input type="text" id="firstname" name="firstname">
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
             <label for="lastname">Last Name</label>
-            <input type="text" id="lastname" name="lastname">
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
             <label for="address">Address</label>
-            <input type="text" id="address" name="address">
+            <input type="text" id="address" name="address" placeholder="Address" required>
             <label for="phonenumber">Phone Number</label>
-            <input type="text" id="phonenumber" name="phonenumber">
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="Phone" required>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" validate="email" required>
+            <input type="email" id="email" name="email" validate="email" placeholder="Email" required>
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" validate="password" maxlength="10" required>
+            <input type="password" id="password" name="password" validate="password"  placeholder="Password" maxlength="10" required>
             <label for="repassword">Re-password</label>
-            <input type="password" id="repassword" name="repassword" validate="password" maxlength="10" required>
-            <input type="submit" value="Register Now" name="submit" class="form-btn">
+            <input type="password" id="repassword" name="repassword" validate="password" placeholder="Re-password" maxlength="10" required>
+            <input type="submit" value="Register Now" name="submit" class="btn primary-btn">
             <div class="form-base">
                 <p>Already have an account? <a href="login.html">Sign in</a>.</p>
             </div>

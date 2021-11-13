@@ -55,8 +55,9 @@ h3 {
 
 /* style the paragraph */
 p {
-    font-family: var(--ff-main-font);
+    font-family: var(--ff-sub-font);
     font-size: 18px;
+    padding: 5px 5px;
     letter-spacing: 3px;
     text-align: justify;
     line-height: 1.7;
@@ -70,7 +71,6 @@ hr {
 
 a {
     text-decoration: none;
-
 }
 
 ul {
@@ -86,13 +86,19 @@ ul {
 
 }
 
-/* logo */
+/* style the logo */
 .logo {
-    height: 65px;
-    width: 60px;
-    display: inline-flex;
+    display: block;
     margin: 0 auto;
+}
 
+.logo img {
+    height: 70px;
+    width: 140px;
+}
+
+.logo a {
+    background-color: transparent;
 }
 
 /* hamburger menu */
@@ -105,19 +111,13 @@ ul {
 /* heading for main CTA */
 .title {
     color: var(--clr-neutral);
-    font-family: "Bavro";
-    font-size: 36px;
-    font-variant: normal;
+
 }
 
 /* p text for main cta */
 .white-text {
     color: var(--clr-neutral);
-    padding: 10px 10px;
     font-family: "Simplifica";
-    font-size: 18px;
-    justify-self: center;
-
 }
 
 /* checkbox hack this needed to be updated later */
@@ -138,17 +138,17 @@ nav.hamburger ul {
     list-style-type: none;
     display: block;
     position: absolute;
-    margin: 60px 0;
+    margin: 65px 0px;
     padding: 10px 10px;
     z-index: 2;
     background-color: var(--clr-overlay-orange);
-    height: 260px;
+    height: 230px;
     width: 1000px;
 
 }
 
 nav.hamburger li {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 
 }
 
@@ -156,16 +156,11 @@ nav.hamburger li a {
     font-family: var(--ff-main-font);
     font-size: 20px;
     text-decoration: none;
-    color: var(--clr-neutral);
-    background: var(--clr-primary-orange);
-    padding: 12px 1px;
+    color: var(--clr-primary-orange);
+    background: var(--clr-neutral);
+    padding: 12px 12px;
     display: block;
     text-align: center;
-}
-
-nav.hamburger li:last-child {
-    margin-bottom: 0;
-
 }
 
 nav.hamburger li a:hover {
@@ -189,7 +184,7 @@ nav.hamburger li a:hover {
 }
 
 .slides {
-    display: block;
+    display: flex;
     position: relative;
     margin: 10px auto;
     z-index: 1;
@@ -232,25 +227,30 @@ nav.hamburger li a:hover {
     color: var(--clr-primary-green);
 }
 
+/* active link on the breadcrumb marked in a different color */
 .b-active {
     color: var(--clr-light);
 }
 
 /* style the buttons */
-.primary-btn {
-    background-color: var(--clr-neutral);
-    border-color: var(--clr-primary-green);
-    color: var(--clr-primary-green);
+/* maintaining the DRY principal here */
+.btn {
     padding: 15px 20px;
     border: 1px solid;
     text-align: center;
     text-decoration: none;
-    margin: 12px 12px;
+    margin: 12px 1px;
     font-family: var(--ff-main-font);
     font-size: 24px;
     font-weight: 600;
     font-variant: small-caps;
     cursor: pointer;
+}
+
+.primary-btn {
+    background-color: var(--clr-neutral);
+    border-color: var(--clr-primary-green);
+    color: var(--clr-primary-green);
 }
 
 .primary-btn:hover {
@@ -262,15 +262,6 @@ nav.hamburger li a:hover {
     border: 1px solid;
     color: var(--clr-primary-blue);
     background-color: var(--clr-neutral);
-    padding: 15px 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 12px 12px;
-    font-family: var(--ff-main-font);
-    font-size: 24px;
-    font-weight: bold;
-    font-variant: small-caps;
-    cursor: pointer;
 }
 
 .secondary-btn:hover {
@@ -278,40 +269,8 @@ nav.hamburger li a:hover {
     color: var(--clr-neutral);
 }
 
-.form-btn {
-    border-color: var(--clr-primary-green);
-    color: var(--clr-primary-green);
-    background-color: var(--clr-neutral);
-    padding: 15px 50px;
-    border: 1px solid;
-    border-radius: 0px;
-    text-align: center;
-    text-decoration: none;
-    font-family: var(--ff-main-font);
-    font-size: 24px;
-    font-weight: 600;
-    font-variant: small-caps;
-    cursor: pointer;
-}
-
-.form-btn:hover {
-    background-color: var(--clr-primary-green);
-    color: var(--clr-neutral);
-}
-
-.white-btn {
-    border: 1px solid;
-    border-color: var(--clr-primary-green);
-    color: var(--clr-primary-green);
-    background-color: var(--clr-neutral);
-    padding: 15px 50px;
-    margin-block: 12px;
-    text-align: center;
-}
-
-.white-btn:hover {
-    background-color: var(--clr-primary-green);
-    color: var(--clr-neutral);
+::placeholder {
+    color: var(--clr-light-bgcolor);
 }
 
 /* main CTA section in the index.html */
@@ -331,7 +290,7 @@ nav.hamburger li a:hover {
 
 }
 
-.grid-woman {
+.grid-women {
     align-items: center;
     background-color: var(--clr-overlay-orange);
 }
@@ -421,13 +380,16 @@ footer {
     max-width: 100%;
 }
 
+.footer-logo {
+    display: block;
+
+}
+
 .footer-logo>img {
-    height: 7%;
-    width: 9%;
+    height: 5%;
+    width: 10%;
     margin: 35px 20px;
     float: left;
-
-
 
 }
 
@@ -529,15 +491,16 @@ footer {
     display: flex;
     position: relative;
     margin: 12px 12px;
+
 }
 
 .about-text {
-    min-width: 50%;
-    margin: 12px 12px;
+    min-width: 45%;
+    margin: 12px 15px;
 }
 
 .about-img {
-    min-width: 50%;
+    min-width: 45%;
     margin: 12px 12px;
 }
 
@@ -553,18 +516,27 @@ footer {
 
 .contact {
     display: flex;
-    flex-direction: row;
-    position: relative;
-    margin: 12px 12px;
+    max-width: 100%;
+    margin: 20px 30px;
 }
 
 .right-section {
-    width: 50%;
-    margin: 12px 12px;
+    display: inline;
+    justify-content: left;
+    width: 25%;
+    margin: 12px 20px;
+
+
 }
 
 .left-section {
-    width: 50%;
+    display: inline;
+    width: 75%;
+}
+
+.contact-form {
+    min-width: 100%;
+    margin: 0 auto;
 }
 
 /*responsive*/
@@ -605,6 +577,23 @@ footer {
 
     }
 
+    .contact {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .right-section {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .contact-form {
+        flex-direction: column;
+        min-width: 130%;
+
+    }
+
     footer {
         flex-direction: column;
 
@@ -638,7 +627,6 @@ footer {
 
     .grid-container {
         grid-template-columns: 47% 47%;
-
     }
 
     .form {
@@ -650,7 +638,8 @@ footer {
         padding: 5px;
 
     }
-    .footer-brand>div{
+
+    .footer-brand>div {
         padding: 0px;
     }
 }

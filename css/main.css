@@ -4,8 +4,8 @@
 @import url(login.css);
 @import url(checkout.css);
 /* google font */
-@import url('//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800'>);
-@import url('//fonts.googleapis.com/css?family=Avenir:thin,extra-light,light,100,200,300,400,500,600,700,800'>);
+@import url('//fonts.googleapis.com/css?family=Montserrat>);
+@import url('//fonts.googleapis.com/css?family=Avenir>);
 
 * {
     box-sizing: border-box;
@@ -347,7 +347,7 @@ nav.hamburger li a:hover {
 }
 
 .search {
-    display: block;
+    display: grid;
     position: relative;
     height: 500px;
     margin: 30px 90px;

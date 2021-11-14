@@ -695,6 +695,9 @@ footer {
         margin: 10px 10px;
 
     }
+    .cat-img>img {
+        height: 250px;
+        width: 100%;
 
     .footer-brand>div {
         padding: 0px;

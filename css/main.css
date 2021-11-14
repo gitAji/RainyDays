@@ -696,11 +696,11 @@ footer {
 
     }
     .left-col {
-        width: 100%;
+        width: 50%;
     }
 
     .right-col {
-        width: 100%;
+        width: 50%;
     }
     .product-img>img {
         width: 100%;

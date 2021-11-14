@@ -588,10 +588,10 @@ footer {
     }
 
     .main-cta {
-        padding: 1px 10px;
+        padding: 1px 5px;
         left: 50%;
         top: 10px;
-        margin: 1px 10px;
+        margin: 1px 5px;
     }
 
     .brand-flex {
@@ -605,7 +605,8 @@ footer {
     }
 
     .white-text {
-        font-size: 12px;
+        font-size: 10px;
+        line-height: 0px;
     }
 
     .contact {

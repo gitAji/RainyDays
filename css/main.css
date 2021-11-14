@@ -644,7 +644,7 @@ footer {
 
 /* media query for tab */
 /* Portrait and Landscape */
-@media (max-width: 1200px)and (min-width: 565px) {
+@media (max-width: 1200px)and (min-width: 768px) {
 
     .main-cta {
         padding: 1px 10px;

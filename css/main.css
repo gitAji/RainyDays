@@ -568,11 +568,10 @@ footer {
     p {
         margin: 12px 12px;
     }
-
-    .btn {
+    .btn{
         padding: 10px 12px;
         font-size: 20px;
-        font-weight: 800;
+        font-weight: 800; 
     }
 
     .user-icon,
@@ -645,15 +644,14 @@ footer {
 
 /* media query for tab */
 /* Portrait and Landscape */
-@media (max-width: 1280px)and (min-width: 565px) {
+@media (max-width: 1200px)and (min-width: 565px) {
 
     .main-cta {
         padding: 1px 10px;
         left: 50%;
-        top: 30px;
+        top: 50px;
         margin: 1px 10px;
     }
-
     .title {
         font-size: 25px;
     }
@@ -671,22 +669,31 @@ footer {
         grid-template-columns: 47% 47%;
     }
 
-    .btn {
+    .btn{
         padding: 10px 12px;
         font-size: 20px;
-        font-weight: 800;
+        font-weight: 800; 
     }
-
     .form {
         width: 100%;
     }
-
-    .p .brand-flex {
+.p
+    .brand-flex {
         margin: 10px;
         padding: 5px;
 
     }
+    
+    .right-col {
+        width: 200%;
+    }
 
+    .left-col img {
+        width: 100%;
+        height: 80%;
+        margin: 10px 10px;
+
+    }
 
     .footer-brand>div {
         padding: 0px;

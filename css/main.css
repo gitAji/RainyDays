@@ -3,9 +3,6 @@
 @import url(product.css);
 @import url(login.css);
 @import url(checkout.css);
-/* google font */
-@import url('//fonts.googleapis.com/css?family=Montserrat>');
-@import url('//fonts.googleapis.com/css?family=Avenir>');
 
 * {
     box-sizing: border-box;

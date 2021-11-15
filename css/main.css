@@ -76,7 +76,7 @@ ul {
 .navbar {
     display: flex;
     position: relative;
-    max-height: 75px;
+    max-height: 65px;
     background-color: var(--clr-neutral);
 
 }

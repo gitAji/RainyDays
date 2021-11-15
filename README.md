@@ -11,4 +11,4 @@ Brief
 ------------------
 You need to deliver a properly functioning, responsive website for the assignment brief that you chose in Design 1.
 
-Site link: <update coming soon>  
+Site link:https://competent-khorana-52ce33.netlify.app/index.html  

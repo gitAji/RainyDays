@@ -273,27 +273,31 @@ nav.hamburger li a:hover {
 .grid-container {
     display: grid;
     grid-template-columns: 49% 49%;
+    grid-auto-rows: 100%;
     grid-gap: 30px 30px;
     padding: 12px 12px;
-    margin: auto;
+
     background-color: var(--clr-light-bgcolor);
 
 }
 
 .grid-men {
+    grid-column: auto;
+    grid-row: auto;
     align-items: center;
     background-color: var(--clr-overlay-orange);
 
 }
 
 .grid-women {
+    grid-column: auto;
+    grid-row: auto;
     align-items: center;
     background-color: var(--clr-overlay-orange);
 }
 
 .grid-img {
-    margin: auto;
-    overflow: hidden;
+
     align-items: center;
     background-size: contain;
     background-position: center;
@@ -538,6 +542,7 @@ footer {
 }
 
 /*responsive*/
+/* media queries for mobile */
 
 @media(max-width: 564px) {
 
@@ -560,6 +565,8 @@ footer {
 
     .grid-container {
         grid-template-columns: 100%;
+        grid-auto-rows: auto;
+        margin: 20px 20px;
     }
 
     p {
@@ -588,7 +595,7 @@ footer {
     .main-cta {
         padding: 1px 5px;
         left: 50%;
-        top: 8px;
+        top: 30%;
         margin: 1px 5px;
     }
 
@@ -610,7 +617,6 @@ footer {
     }
 
     .contact {
-        flex-direction: column;
         width: 100%;
 
     }
@@ -620,9 +626,9 @@ footer {
         overflow: hidden;
     }
 
-    .contact-form {
-        flex-direction: column;
-        min-width: 130%;
+    .contact {
+        flex-direction:column ;
+        min-width: 100%;
 
     }
 
@@ -650,7 +656,7 @@ footer {
     .main-cta {
         padding: 1px 10px;
         left: 50%;
-        top: 50px;
+        top: 15%;
         margin: 1px 10px;
     }
 
@@ -669,7 +675,8 @@ footer {
 
     .grid-container {
         grid-template-columns: 47% 47%;
-        margin: 0 auto;
+        grid-auto-rows: auto;
+
     }
 
     .btn {

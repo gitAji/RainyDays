@@ -60,20 +60,59 @@
         </ul>
     </div>
     <!-- shopping-bag -->
-    <div class="main-container">
-        <div class="checkout-step">
-            <ul>
-                <li class="step-active">Shipping Details</li>
-                <li>Payment Details</li>
-                <li>Checkout Complete</li>
-            </ul>
+
+    <div class="checkout-step">
+        <ul>
+            <li class="step-active">Shipping Details</li>
+            <li>Payment Details</li>
+            <li>Checkout Complete</li>
+        </ul>
+
+    </div>
+    <hr>
+    <div class="checkout">
+        <div class="left-container">
+            <div Id="form">
+                <form>
+                    <h1>shipping Details</h1>
+                    <hr>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" placeholder="Address" required>
+                    <label for="postcode">Postcode</label>
+                    <input type="text" id="postcode" name="postcode" placeholder="postcode" required>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="City" required>
+                    <a href="checkout-sucess.html">
+                        <div class="btn primary-btn" value="next" name="next">Next</div>
+                    </a>
+                </form>
+            </div>
         </div>
-        <div class="main-container">
-            <form action="" method="post"></form>
+        <div class="right-container">
+            <table>
+
+                <th> <i class="fas fa-shopping-bag">(01)</i></th>
+                <th>
+                    <div class="price"><i class="fas fa-tag"></i>Kr</div>
+                </th>
+                <tr>
+                    <td><a href="products-view.html">Nike bubble jacket</a></td>
+                    <td>
+                        <div class="price">3000kr</div>
+                    </td>
+                    <td><a href="products-view.html"><i class="fas fa-times"></i></a></td>
+                </tr>
+
+
+            </table>
+
 
         </div>
+
     </div>
-    </div>
+
 
     <!-- footer Section -->
     <footer class="footer">

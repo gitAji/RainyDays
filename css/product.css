@@ -116,7 +116,7 @@
 }
 
 /* media queries for product and checkout section are placed here*/
-@media(max-width: 574px) {
+@media(max-width: 564px) {
     .cat-img>img {
         height: auto;
     }
